@@ -27,7 +27,7 @@ How to set up your raw server account at the quickest speed?
 2. git clone https://github.com.cnpmjs.org/gpakosz/.tmux.git
 3. ln -s -f .tmux/.tmux.conf
 4. cp .tmux/.tmux.conf.local . (notice there is one dot at the end which means the current directory)
-5. add (set -g mouse on) in .tmux.conf file
+5. add (set -g mouse on) in .tmux.conf.local file
 
 ### NeoVim Install
 
