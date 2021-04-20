@@ -55,3 +55,7 @@ How to set up your raw server account at the quickest speed?
 3. hostnamectl   to check the version of linux
    if is ubuntub-based : sudo apt install epel-release , then we can sudo apt-install htop
    if is centos-based  : sudo yum install epel-release, then we can sudo yum htop
+   
+### Big File Transfer Notice
+1. use df -h to check the NVM/HDD/SSD mount location
+2. put huge files into /NVM /HDD mount location
