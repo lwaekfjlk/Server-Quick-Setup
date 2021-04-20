@@ -48,3 +48,10 @@ How to set up your raw server account at the quickest speed?
    4. set cindent
    5. set smartindent
    6. set ruler
+
+### CPU/GPU show 
+1. pip install gpustat [under base env]
+2. add "alias gpu='~/anaconda3/bin/gpustat -i 1 --color'" into ~/.zshrc
+3. hostnamectl   to check the version of linux
+   if is ubuntub-based : sudo apt-install htop
+   if is centos-based  : sudo yum htop
