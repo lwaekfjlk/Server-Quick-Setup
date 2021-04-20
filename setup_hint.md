@@ -33,7 +33,7 @@ How to set up your raw server account at the quickest speed?
 
 1. wget https://github.com.cnpmjs.org/neovim/neovim/releases/download/v0.4.3/nvim-linux64.tar.gz
 2. tar -zxvf nvim-linux64.tar.gz
-3. add the /bin file in the neovim into .zshrc as part of /$PATH    export PATH=/$HOME/path_to_nvim/nvim-linux64/bin:/$PATH
+3. add the /bin file in the neovim into .zshrc as part of \$PATH    export PATH=\$HOME/path_to_nvim/nvim-linux64/bin:\$PATH
 
 4. source ~/.zshrc
 5. modify the corresponding install.sh in the neovim-init.vim
