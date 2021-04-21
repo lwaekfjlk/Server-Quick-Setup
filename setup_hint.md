@@ -45,7 +45,7 @@ How to set up your raw server account at the quickest speed?
 
       Since the install of install.sh can be quite difficult due to the existence of GFW, we provide a complete file to be put under ~/.config/nvim in order to directly use NeoVim
 
-      BaiduPan to Download nvim.zip to unzip and put under  ~/.config/nvim
+      BaiduPan to Download nvim.zip to unzip and put under  ~/.config as a /nvim subfile
 
       链接: https://pan.baidu.com/s/1oXcHtykRPB2Ws7UIQKnLWA  密码: lu60
 
