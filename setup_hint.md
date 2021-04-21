@@ -32,22 +32,37 @@ How to set up your raw server account at the quickest speed?
 ### NeoVim Install
 
 1. wget https://github.com.cnpmjs.org/neovim/neovim/releases/download/v0.4.3/nvim-linux64.tar.gz
+
 2. tar -zxvf nvim-linux64.tar.gz
+
 3. add the /bin file in the neovim into .zshrc as part of \$PATH    export PATH=\$HOME/path_to_nvim/nvim-linux64/bin:\$PATH
 
 4. source ~/.zshrc
-5. modify the corresponding install.sh in the neovim-init.vim
-   1. pip install -> pip3 install to prevent protential problems
-   2. if having trouble downloading when :PlugInstall, choose to do Step7 below
-6. sh install.sh
-7. Since PlugInstall would have problems downloading, we copy the files under /.config/plugged and put these files into the same plugged/ file 
-8. Change init.vim under /.config/nvim/ to allow jj and line number display
-   1. let map leader=','
-   2. inoremap jj <Esc>`^
-   3. set number
-   4. set cindent
-   5. set smartindent
-   6. set ruler
+
+5. install neovim configuration
+
+   1. easy way
+
+      Since the install of install.sh can be quite difficult due to the existence of GFW, we provide a complete file to be put under ~/.config/nvim in order to directly use NeoVim
+
+      BaiduPan to Download nvim.zip to unzip and put under  ~/.config/nvim
+
+      链接: https://pan.baidu.com/s/1oXcHtykRPB2Ws7UIQKnLWA  密码: lu60
+
+   2. hard way
+
+      1. modify the corresponding install.sh in the neovim-init.vim
+         1. pip install -> pip3 install to prevent protential problems
+         2. if having trouble downloading when :PlugInstall, choose to do Step7 below
+      2. sh install.sh
+      3. Since PlugInstall would have problems downloading, we copy the files under /.config/plugged and put these files into the same plugged/ file 
+      4. Change init.vim under /.config/nvim/ to allow jj and line number display
+         1. let map leader=','
+         2. inoremap jj <Esc>`^
+         3. set number
+         4. set cindent
+         5. set smartindent
+         6. set ruler
 
 ### CPU/GPU show 
 1. pip install gpustat [under base env]
