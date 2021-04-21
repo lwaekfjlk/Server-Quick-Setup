@@ -1,6 +1,6 @@
 How to set up your raw server account at the quickest speed?
 
-## Anaconda Install
+## Anaconda Install ( when you are in zsh, ensure install process will modify .zshrc)
 
 1. wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 
