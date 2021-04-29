@@ -6,6 +6,7 @@ How to set up your raw server account at the quickest speed?
 
 2. run this sh
 3. we need to reenter this server and do not need to do conda init ( we need to init this conda and allow us to do conda activate )
+4. if you use zsh, need to copy >>> conda init >>> part shell code into .zshrc
 
 ### OhMyZsh Install
 
