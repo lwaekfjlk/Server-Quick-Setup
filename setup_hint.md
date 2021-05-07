@@ -50,6 +50,7 @@ How to set up your raw server account at the quickest speed?
 
       链接: https://pan.baidu.com/s/1oXcHtykRPB2Ws7UIQKnLWA  密码: lu60
 
+      After that, you still need to download neovim-init.vim and run install.sh until the process of plugin installing in order to download some necessary packagess.
    2. hard way
 
       1. modify the corresponding install.sh in the neovim-init.vim
