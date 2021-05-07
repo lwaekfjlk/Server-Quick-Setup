@@ -42,6 +42,8 @@ How to set up your raw server account at the quickest speed?
 
 5. install neovim configuration
 
+6. python3 -m pip install --user --upgrade pynvim 
+
    1. easy way
 
       Since the install of install.sh can be quite difficult due to the existence of GFW, we provide a complete file to be put under ~/.config/nvim in order to directly use NeoVim
