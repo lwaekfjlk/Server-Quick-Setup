@@ -28,8 +28,8 @@ How to set up your raw server account at the quickest speed?
 2. git clone https://github.com.cnpmjs.org/gpakosz/.tmux.git
 3. ln -s -f .tmux/.tmux.conf
 4. cp .tmux/.tmux.conf.local . (notice there is one dot at the end which means the current directory)
-5. add (set -g mouse on) in .tmux.conf.local file (if you use tmux 1.x)
-   add (set-option -g mouse on) and 
+5. add one line (set -g mouse on) in .tmux.conf.local file (if you use tmux 1.x)
+6. add two line 1st line is (set-option -g mouse on) and 2nd line is
        (bind -n WheelUpPane if-shell -F -t = "#{mouse_any_flag}" "send-keys -M" "if -Ft= '#{pane_in_mode}' 'send-keys -M' 'copy-mode -e'") (if you use tmux 2.x)
 
 ### NeoVim Install
