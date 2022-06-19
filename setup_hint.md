@@ -5,7 +5,7 @@ How to set up your raw server account at the quickest speed?
 1. wget https://repo.anaconda.com/archive/Anaconda3-2019.10-Linux-x86_64.sh
 
 2. run this sh
-3. we need to reenter this server and do not need to do conda init ( we need to init this conda and allow us to do conda activate )
+3. select the installation address and do conda init according to the installation guide
 4. if you use zsh, need to copy >>> conda init >>> part shell code into .zshrc
 
 ### OhMyZsh Install
