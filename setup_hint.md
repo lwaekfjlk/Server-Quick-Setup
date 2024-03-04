@@ -11,12 +11,12 @@ How to set up your raw server account at the quickest speed?
 ### OhMyZsh Install
 
 1. sudo apt-get install zsh (if there is no zsh on the server)
-2. git clone https://github.com.cnpmjs.org//robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+2. git clone https://github.com.cnpmjs.org/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 3. cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 4. chsh -s /bin/zsh
 5. reboot
 6. ～/.zshrc ZSH_THEME="jonathan" (or other themes)
-7. plugins=(git sublime vscode rand-quote extract tmux zsh-syntax-highlighting zsh-autosuggestions)
+7. plugins=(git sublime vscode extract tmux zsh-syntax-highlighting zsh-autosuggestions)
 8. git clone https://github.com.cnpmjs.org/zsh-users/zsh-syntax-highlighting.git
 9. mv zsh-syntax-highlighting/ $ZSH_CUSTOM/plugins/
 10. git clone https://github.com.cnpmjs.org/zsh-users/zsh-autosuggestions.git
